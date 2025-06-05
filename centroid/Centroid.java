@@ -42,13 +42,13 @@ public class Centroid {
     public Point getCentroid(){
 
         // set x centroid
-        this.centroid.x = this.computX();
-        this.centroid.y = this.computY();
-        this.centroid.weight = this.computW();        
+        // this.centroid.x = this.computX();
+        // this.centroid.y = this.computY();
+        // this.centroid.weight = this.computW();        
         // set y centroid
         // set weight
         
-        return this.centroid;
+        return new Point(this.computX(), this.computY(), this.computW());
     }
 
     // get centroid : return the point unique
