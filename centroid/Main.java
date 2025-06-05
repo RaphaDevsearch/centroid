@@ -8,9 +8,9 @@ public class Main {
 
         ArrayList <Point> pts = new ArrayList<>();
 
-        pts.add(new Point(1, 1, 1));
-        pts.add(new Point(1, 3, 2));
-        pts.add(new Point(1, 5, 1));
+        pts.add(new Point(1, 2, 3));
+        pts.add(new Point(4, 0, 1));
+        pts.add(new Point(2, 5, 2));
 
         Centroid G = new Centroid(pts);
 
